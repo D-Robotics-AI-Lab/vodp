@@ -6,9 +6,9 @@
   
   <!-- Primary Meta Tags -->
   <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
+  <meta name="title" content="VO-DP">
   <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <meta name="description" content="Semantic-Geometric Adaptive Diffusion Policy for Vision-Only Robotic Manipulation">
   <!-- TODO: Add 5-10 relevant keywords for your research area -->
   <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
   <!-- TODO: List all authors -->
@@ -19,7 +19,7 @@
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="article">
   <!-- TODO: Replace with your institution or lab name -->
-  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
+  <meta property="og:site_name" content="D-Robotics">
   <!-- TODO: Same as paper title above -->
   <meta property="og:title" content="PAPER_TITLE">
   <!-- TODO: Same as description above -->
@@ -77,8 +77,8 @@
   <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
   
   <!-- Favicon and App Icons -->
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.png">
+  <link rel="apple-touch-icon" href="static/images/favicon.png">
   
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
@@ -179,8 +179,6 @@
   </script>
 </head>
 <body>
-
-
   <!-- Scroll to Top Button -->
   <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
     <i class="fas fa-chevron-up"></i>
@@ -236,58 +234,101 @@
 
   <main id="main-content">
   <section class="hero">
-    <div class="hero-body">
+    <div class="hero-body" style="padding-bottom: 0px">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title" style="font-size: 34px;">
+              <font color="#eb4e27">VO-DP</font>: Semantic-Geometric Adaptive 
+              <font color="#eb4e27">D</font>iffusion <font color="#eb4e27">P</font>olicy for 
+              <font color="#eb4e27">V</font>ision-<font color="#eb4e27">O</font>nly Robotic Manipulation
+            </h1>
+
             <div class="is-size-5 publication-authors">
               <!-- TODO: Replace with your paper authors and their personal links -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Zehao Ni</a><sup>1,2,5,6*</sup>,
+              </span>
+              <span class="author-block">
+                <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Yonghao He</a><sup>2*†</sup>,
+              </span>
+              <span class="author-block">
+                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Lingfeng Qian</a><sup>2*</sup>,
+              </span>
+              <span class="author-block">
+                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Jilei Mao</a><sup>2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Fa Fu</a><sup>2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Wei Sui</a><sup>2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Hu Su</a><sup>4</sup>,
+              </span>
+              <span class="author-block">
+                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Junran Peng</a><sup>3✉</sup>,
+              </span>
+              <span class="author-block">
+                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Zhipeng Wang</a><sup>1,5,6</sup>,
+              </span>
+              <span class="author-block">
+                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Bin He</a><sup>1,5,6✉</sup>
+              </span>
+            </div>
 
-                  <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
+            <div class="is-size-5 publication-authors" style="margin-bottom: 0px;">
+              <!-- TODO: Replace with your institution and conference/journal info -->
+              <span class="author-block"  style="font-size: 14px;">
+                <sup>1</sup>National Key Laboratory of Autonomous Intelligent Unmanned Systems<br>
+                <sup>2</sup>D-ROBOTICS<br>
+                <sup>3</sup>University of Science and Technology Beijing<br>
+                <sup>4</sup>State Key Laboratory of Multimodal Artificial Intelligence System (MAIS) Institute of Automation of Chinese Academy of Sciences<br>
+                <sup>5</sup>Frontiers Science Center for Intelligent Autonomous Systems<br>
+                <sup>6</sup>Shanghai Institute of Intelligent Science and Technology, Tongji University<br>
+                
+              </span>
+              <!-- <span class="author-block">
+                ICRA 2026
+              </span> -->
+              <span class="author-block" style="font-size: 16px;">
+                <sup>*</sup>Equal Contribution <sup>*</sup>Project Leader <sup>✉</sup>Corresponding authors
+              </span>
+              <!-- TODO: Remove this line if no equal contribution -->
+              <!-- <span class="eql-cntrb"><small><sup>*</sup>Equal Contribution <sup>*</sup>Project Leader <sup>✉</sup>Corresponding authors</small></span> -->
+            </div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- TODO: Update with your arXiv paper ID -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
+            <div class="column has-text-centered">
+              <div class="publication-links">
 
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
-                  <!-- TODO: Replace with your GitHub repository URL -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                <!-- TODO: Update with your arXiv paper ID -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+
+                <!-- TODO: Add your supplementary material PDF or remove this section -->
+                <span class="link-block">
+                  <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Dataset</span>
+                  </a>
+                </span>
+
+                <!-- TODO: Replace with your GitHub repository URL -->
+                <span class="link-block">
+                  <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
@@ -298,217 +339,272 @@
                 <!-- TODO: Update with your arXiv paper ID -->
                 <span class="link-block">
                   <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+              
+              </div>
             </div>
+
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End paper abstract -->
-
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
       </div>
     </div>
   </section>
-<!--End paper poster -->
 
-
-
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <div class="bibtex-header">
-        <h2 class="title">BibTeX</h2>
-        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-          <i class="fas fa-copy"></i>
-          <span class="copy-text">Copy</span>
-        </button>
+  <!-- Teaser video-->
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <center>
+          <img src="static/images/compare.jpg" 
+            alt="VO-DP" class="blend-img-background center-image" 
+            style="max-width: 90%; height: auto;" loading="lazy">
+        </center>
+        <p>
+            VO-DP is a vision-only method for visuomotor
+            robotic manipulation: it takes single-view RGB images as
+            input, uses large vision models to extract semantic and geometric
+            features from observations, and provides high-quality
+            conditional inputs for the policy head. Experiments show
+            it matches point cloud-based DP3’s accuracy in simulation,
+            outperforms it significantly in real-world tasks, and notably
+            boosts vision-only method accuracy.
+        </p>
       </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
-}</code></pre>
     </div>
-</section>
-<!--End BibTex citation -->
+  </section>
+  <!-- End teaser video -->
 
-
-  <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified" style="width: 100%; font-size: 16px;">
+            <!-- TODO: Replace with your paper abstract -->
+            <p>
+              In the context of imitation learning, visuomotor-based
+              diffusion policy learning is one of the main directions in
+              robotic manipulation. Most of these approaches rely on point
+              clouds as observation inputs and construct scene representations
+              through point clouds feature learning, which enables
+              them to achieve remarkable accuracy. However, the existing
+              literature lacks an in-depth exploration of vision-only solutions
+              that have significant potential. In this paper, we propose a
+              Vision-Only and single-view Diffusion Policy learning method
+              (VO-DP) that leverages pretrained visual foundation models
+              to achieve effective fusion of semantic and geometric features.
+              We utilize intermediate features from VGGT incorporating
+              semantic features from DINOv2 and geometric features from
+              Alternating Attention blocks. Features are fused via cross-attention
+              and spatially compressed with a CNN to form the
+              input to the policy head. Extensive experiments demonstrate
+              that VO-DP not only outperforms the vision-only baseline
+              DP significantly but also exhibits distinct performance trends
+              against the point cloud-based method DP3: in simulation tasks,
+              VO-DP achieves an average success rate of 64.6%—on par with
+              DP3 64.0% and far higher than DP 34.8%, while in real-world
+              tasks, it reaches 87.9%, outperforming both DP3 67.5% and
+              DP 11.2% by a notable margin. Further robustness evaluations
+              confirm that VO-DP remains highly stable under varying conditions
+              including color, size, background, and lighting. Lastly,
+              we open-source DRRM (D-Robotics Robotic Manipulation), a
+              training library for robotic manipulation. Built on Accelerate,
+              this library supports multi-machine and multi-GPU parallel
+              training, as well as mixed precision training (e.g., bf16, fp16).
+              It is compatible with visuomotor policies such as DP and DP3,
+              and also supports the RoboTwin simulator. VO-DP is integrated
+              into DRRM. We refer to the project page for the code and videos.
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</footer>
+    <div class="container is-max-desktop">
+      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
+        <!-- TODO: Add your video file path here -->
+        <source src="https://drobotics-ailab.tos-cn-beijing.volces.com/users/zehao.ni/github/vodp/VO-DP-1080_30.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
+  <!-- End paper abstract -->
+
+  <!-- Method -->
+  <section class="section hero">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths" style="width: 100%">
+          <h2 class="title is-3">Method</h2>
+          <div class="content has-text-justified" style="font-size: 16px;">
+            <p>
+              Our method VO-DP has four core modules: 1) VGGT Encoder extracts semantic features from
+              patchified images via DINOv2 and generates geometric features through its AA network; 2) Semantic-Geometric Fuser
+              fuses per-frame geometric and semantic features using residual cross-attention and an FFN; 3) Spatial Compression module
+              reshapes fused features, downsamples them with a lightweight ResNet, and concatenates the compressed spatial features
+              with proprioceptive observations to form compact scenario representations; 4) Vision-Only Conditioned Action Generation
+              module employs a DDPM-based policy head to generate actions using the scenario representations.
+            </p>
+            <center>
+              <img src="static/images/framework_a.jpg" alt="VO-DP" 
+              class="blend-img-background center-image" style="max-width: 90%; height: auto;" loading="lazy">
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Method -->
+
+  <!-- Effectiveness -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths" style="width: 100%">
+          <h2 class="title is-3">Effectiveness</h2>
+          <div class="content has-text-justified" style="font-size: 16px;">
+            <p>
+              VO-DP achieves state-of-the-art (SOTA) performance
+              in both simulation and real-world environments,
+              while also demonstrating high data efficiency and strong generalization.
+              In simulation, it is rigorously evaluated on the challenging 14-task RoboTwin benchmark.
+              For real-world tasks such as pick-and-place and stacking, VO-DP is trained with only
+              200 demonstrations per task, showcasing exceptional data efficiency. More importantly,
+              the method exhibits remarkable generalization capabilities across significant variations,
+              maintaining robust performance in rigorous tests for size, appearance, illumination,
+              and background robustness, with success rates such as 65.0% on unseen object sizes and 83.3%
+              under dynamic lighting interference.
+            </p>
+            <center>
+              <img src="static/images/result.jpg" alt="VO-DP" 
+              class="blend-img-background center-image" style="max-width: 90%; height: auto;" loading="lazy">
+            </center>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Effectiveness -->
+
+  <!-- Simulation evaluation -->
+  <section class="section hero">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths" style="width: 100%">
+          <h2 class="title is-3">Geometry-Aware Tokens<br>Visualization on Robotwin</h2>
+          <div class="content has-text-justified" style="font-size: 16px;">
+            <p>
+              VO-DP demonstrates its effective spatial
+              representation in embodied scenarios through its geometry-aware tokens,
+              as evaluated on the challenging RoboTwin benchmark.
+              It successfully addresses 14 bimanual tasks by comprehending semantic
+              intent and geometric structure from RGB image inputs.
+              The policy achieves high success rates by satisfying precise pose constraints
+              and maintaining collision-free trajectories across extensive test scenes.
+            </p>
+            <video poster="" id="tree" autoplay muted loop height="80%" preload="metadata">
+              <!-- TODO: Add your video file path here -->
+              <source src="https://drobotics-ailab.tos-cn-beijing.volces.com/users/zehao.ni/github/vodp/vggt-vis_30.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Simulation evaluation -->
+
+  <!-- Real-world evaluation -->
+  <!-- <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths" style="width: 100%">
+          <h2 class="title is-3">Real-world tasks</h2>
+          <div class="content has-text-justified" style="font-size: 16px;">
+            <p>
+              VO-DP is a vision-only method for visuomotor
+              robotic manipulation: it takes single-view RGB images as
+              input, uses large vision models to extract semantic and geometric
+              features from observations, and provides high-quality
+              conditional inputs for the policy head. Experiments show
+              it matches point cloud-based DP3’s accuracy in simulation,
+              outperforms it significantly in real-world tasks, and notably
+              boosts vision-only method accuracy.
+            </p>
+            <p><img src="static/images/vodp-all.jpg" alt="VO-DP" class="blend-img-background center-image" style="max-width: 100%; height: auto;" loading="lazy"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- End Real-world evaluation -->
+
+  <!-- Robustness evaluation -->
+  <!-- <section class="section hero">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths" style="width: 100%">
+          <h2 class="title is-3">Robustness evaluation</h2>
+          <div class="content has-text-justified" style="font-size: 16px;">
+            <p>
+              VO-DP is a vision-only method for visuomotor
+              robotic manipulation: it takes single-view RGB images as
+              input, uses large vision models to extract semantic and geometric
+              features from observations, and provides high-quality
+              conditional inputs for the policy head. Experiments show
+              it matches point cloud-based DP3’s accuracy in simulation,
+              outperforms it significantly in real-world tasks, and notably
+              boosts vision-only method accuracy.
+            </p>
+            <p><img src="static/images/vodp-all.jpg" alt="VO-DP" class="blend-img-background center-image" style="max-width: 100%; height: auto;" loading="lazy"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- End Robustness evaluation -->
+
+  <!--BibTex citation -->
+    <section class="section" id="BibTeX">
+      <div class="container is-max-desktop content">
+        <div class="bibtex-header">
+          <h2 class="title">BibTeX</h2>
+          <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+            <i class="fas fa-copy"></i>
+            <span class="copy-text">Copy</span>
+          </button>
+        </div>
+        <pre id="bibtex-code"><code>@article{YourPaperKey2024,
+          title={Your Paper Title Here},
+          author={First Author and Second Author and Third Author},
+          journal={Conference/Journal Name},
+          year={2024},
+          url={https://your-domain.com/your-project-page}
+        }</code></pre>
+      </div>
+  </section>
+  <!--End BibTex citation -->
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+              You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+              Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 <!-- Statcounter tracking code -->
   
@@ -516,5 +612,5 @@
 
     <!-- End of Statcounter Code -->
 
-  </body>
-  </html>
+</body>
+</html>
