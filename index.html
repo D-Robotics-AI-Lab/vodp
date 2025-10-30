@@ -260,34 +260,34 @@
             <div class="is-size-5 publication-authors">
               <!-- TODO: Replace with your paper authors and their personal links -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Zehao Ni</a><sup>1,2,5,6*</sup>,
+                <a onclick="return false">Zehao Ni</a><sup>1,2,5,6*</sup>,
               </span>
               <span class="author-block">
-                <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Yonghao He</a><sup>1*†</sup>,
+                <a href="https://github.com/YonghaoHe" target="_blank">Yonghao He</a><sup>1*†</sup>,
               </span>
               <span class="author-block">
-                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Lingfeng Qian</a><sup>1*</sup>,
+                <a onclick="return false">Lingfeng Qian</a><sup>1*</sup>,
               </span>
               <span class="author-block">
-                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Jilei Mao</a><sup>1</sup>,
+                <a onclick="return false">Jilei Mao</a><sup>1</sup>,
               </span>
               <span class="author-block">
-                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Fa Fu</a><sup>1</sup>,
+                <a onclick="return false">Fa Fu</a><sup>1</sup>,
               </span>
               <span class="author-block">
-                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Wei Sui</a><sup>1</sup>,
+                <a onclick="return false">Wei Sui</a><sup>1</sup>,
               </span>
               <span class="author-block">
-                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Hu Su</a><sup>4</sup>,
+                <a onclick="return false">Hu Su</a><sup>4</sup>,
               </span>
               <span class="author-block">
-                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Junran Peng</a><sup>3✉</sup>,
+                <a href="https://jrpeng.github.io/" target="_blank">Junran Peng</a><sup>3✉</sup>,
               </span>
               <span class="author-block">
-                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Zhipeng Wang</a><sup>2,5,6</sup>,
+                <a href="https://robot.tongji.edu.cn/info/1256/2086.htm" target="_blank">Zhipeng Wang</a><sup>2,5,6</sup>,
               </span>
               <span class="author-block">
-                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Bin He</a><sup>2,5,6✉</sup>
+                <a href="https://robot.tongji.edu.cn/info/1256/2083.htm" target="_blank">Bin He</a><sup>2,5,6✉</sup>
               </span>
             </div>
 
@@ -439,7 +439,7 @@
       </div>
     </div>
     <div class="container is-max-desktop">
-      <video poster="" id="tree" autoplay controls loop height="100%" preload="metadata">
+      <video poster="" id="tree" autoplay muted controls loop height="100%" preload="metadata">
         <source src="https://drobotics-ailab.tos-cn-beijing.volces.com/public/vodp/VO-DP-1080_h264.mp4" type="video/mp4">
       </video>
     </div>
@@ -570,12 +570,92 @@
               outperforms it significantly in real-world tasks, and notably
               boosts vision-only method accuracy.
             </p>
-            <p><img src="static/images/vodp-all.jpg" alt="VO-DP" class="blend-img-background center-image" style="max-width: 100%; height: auto;" loading="lazy"></p>
+            <div class="columns is-multiline">
+              <div class="column is-one-quarter">
+                <video poster="" class="grid-video" autoplay muted loop preload="metadata" style="width:100%; height:auto;" aria-label="VO-DP visualization 1">
+                  <source src="https://drobotics-ailab.tos-cn-beijing.volces.com/public/vodp/exp/video_robust_light_h264.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="column is-one-quarter">
+                <video poster="" class="grid-video" autoplay muted loop preload="metadata" style="width:100%; height:auto;" aria-label="VO-DP visualization 2">
+                  <source src="https://drobotics-ailab.tos-cn-beijing.volces.com/public/vodp/exp/video_robust_bg_h264.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="column is-one-quarter">
+                <video poster="" class="grid-video" autoplay muted loop preload="metadata" style="width:100%; height:auto;" aria-label="VO-DP visualization 3">
+                  <source src="https://drobotics-ailab.tos-cn-beijing.volces.com/public/vodp/exp/video_robust_size_h264.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="column is-one-quarter">
+                <video poster="" class="grid-video" autoplay muted loop preload="metadata" style="width:100%; height:auto;" aria-label="VO-DP visualization 4">
+                  <source src="https://drobotics-ailab.tos-cn-beijing.volces.com/public/vodp/exp/video_robust_color_h264.mp4" type="video/mp4">
+                </video>
+              </div>
+
+              <div class="column is-one-quarter">
+                <video poster="" class="grid-video" autoplay muted loop preload="metadata" style="width:100%; height:auto;" aria-label="VO-DP visualization 5">
+                  <source src="https://drobotics-ailab.tos-cn-beijing.volces.com/public/vodp/exp/video_robust_pi0.5_light_h264.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="column is-one-quarter">
+                <video poster="" class="grid-video" autoplay muted loop preload="metadata" style="width:100%; height:auto;" aria-label="VO-DP visualization 6">
+                  <source src="https://drobotics-ailab.tos-cn-beijing.volces.com/public/vodp/exp/video_robust_pi0.5_bg_h264.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="column is-one-quarter">
+                <video poster="" class="grid-video" autoplay muted loop preload="metadata" style="width:100%; height:auto;" aria-label="VO-DP visualization 7">
+                  <source src="https://drobotics-ailab.tos-cn-beijing.volces.com/public/vodp/exp/video_robust_pi0.5_size_h264.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="column is-one-quarter">
+                <video poster="" class="grid-video" autoplay muted loop preload="metadata" style="width:100%; height:auto;" aria-label="VO-DP visualization 8">
+                  <source src="https://drobotics-ailab.tos-cn-beijing.volces.com/public/vodp/exp/video_robust_pi0.5_color_h264.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section> -->
+  <!-- End Robustness evaluation -->
+
+  <!-- Robustness evaluation -->
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h2 class="title is-3">Robustness evaluation</h2>
+        <div id="results-carousel" class="carousel results-carousel" style="padding-top: 0px; width: 80%;">
+          <div class="item item-video1">
+            <video poster="" id="video1" autoplay muted loop height="100%" preload="metadata">
+              <source src="https://drobotics-ailab.tos-cn-beijing.volces.com/public/vodp/exp/video_robust_light_h264.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-video2">
+            <!-- TODO: Add poster image for better preview -->
+            <video poster="" id="video2" autoplay muted loop height="100%" preload="metadata">
+              <!-- Your video file here -->
+              <source src="https://drobotics-ailab.tos-cn-beijing.volces.com/public/vodp/exp/video_robust_bg_h264.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-video3">
+            <!-- TODO: Add poster image for better preview -->
+            <video poster="" id="video3" autoplay muted loop height="100%" preload="metadata">
+              <!-- Your video file here -->
+              <source src="https://drobotics-ailab.tos-cn-beijing.volces.com/public/vodp/exp/video_robust_size_h264.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-video4">
+            <!-- TODO: Add poster image for better preview -->
+            <video poster="" id="video4" autoplay muted loop height="100%" preload="metadata">
+              <!-- Your video file here -->
+              <source src="https://drobotics-ailab.tos-cn-beijing.volces.com/public/vodp/exp/video_robust_color_h264.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- End Robustness evaluation -->
 
   <!--BibTex citation -->
@@ -604,13 +684,11 @@
       <div class="columns is-centered">
         <div class="column is-8">
           <div class="content">
-
             <p>
               This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
               You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
               Commons Attribution-ShareAlike 4.0 International License</a>.
             </p>
-
           </div>
         </div>
       </div>

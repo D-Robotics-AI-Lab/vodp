@@ -258,6 +258,21 @@ body {
   padding: 1rem 0;
 }
 
+/* Center the results carousel container and ensure responsive sizing */
+#results-carousel {
+  margin: 0 auto; /* horizontally center */
+  display: block;
+  max-width: 80%; /* respects the inline width used in markup; adjust here if needed */
+}
+
+/* Center carousel navigation/pagination if present */
+.results-carousel .slider-navigation,
+.results-carousel .slider-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .results-carousel .item {
   margin: 1rem;
   overflow: hidden;
